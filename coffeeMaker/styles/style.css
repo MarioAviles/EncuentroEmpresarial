@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Evita el desplazamiento horizontal */
+}
+
+h1, h2, h3{
+    font-family: "Montserrat";
+    font-weight: bold !important;
+    margin-top: 35px !important;
+    margin-bottom: 25px !important;
+    font-style: normal;
+    color: #3E2723 !important; /* Encabezados */
+    text-align: center;
+}
+
+p{
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: #795548; /* Párrafos */
+}
+
+.subtitulo{
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #3E2723; /* Para el carrusel */
+}
+
+.barraInicio {
+    font-family: "Montserrat";
+    font-weight: bold !important;
+    text-align: center;
+}
+
+.navbar{
+    background-color: #CF9D62; /* Para la barra de inicio */
+}
+
+.nav-link{
+    color: #3E2723; /* Texto barra de inicio  */
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    color: #5D4037; /* Hover texto barra de inicio */
+}
+
+.navbar-nav{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.sin{
+    margin: 0;
+    padding: 0;
+}
+.pie{
+    margin: 15px 0 0 0 !important;
+    padding: 0;
+}
+
+.textoequipo {
+    text-align: center !important;
+    display: flex;
+    align-items: center;
+}
+
+.textoContacto{
+   text-align: center;
+   font-weight: bold !important;
+   color: #CF9D62 !important;
+}
+.textoFooter{
+    text-align: center;
+    font-weight: bold !important;
+    color: #3E2723 !important;
+}
+.carousel-item img {
+    height: 400px; 
+    object-fit: cover;
+    width: 100%;
+}
+
+.titulosFoto{
+    text-align: center;
+    color: #795548; /* Marrón medio */
+}
+
+.fondo1{
+    background-color: #f5f5dc; /* Beige claro */
+}
+
+.fondo2{
+    background-color: #3E2723; /* Marrón oscuro */
+}
+
+.mapa{
+    width: 80%;
+    margin: 5% 10% 5% 10%;
+}
+
+.container-fluid {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.botonForm{
+    background-color: #CF9D62; 
+    color: #3E2723; 
+    border: 2px solid #3E2723;
+    transition: 0.5s;
+    &:hover{
+        background-color: #3E2723;
+        color: #CF9D62; 
+        transition: 0.5s;
+        border: 2px solid;
+    }
+    
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* Permite que el contenido crezca uniformemente */
+    justify-content: space-between; /* Distribuye el contenido */
+}
+
+.card-img-top {
+    height: 200px; /* Ajusta según tu diseño */
+    object-fit: cover; /* Mantiene proporción y recorta si es necesario */
+    width: 100%;
+}
+
+.card-body{
+    background-color: #ffffff;
+}
+
+.footer{
+    background-color: #CF9D62; 
+    color: #3E2723; 
+    font-weight: bold !important;
+}
